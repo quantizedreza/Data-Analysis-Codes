@@ -1,3 +1,5 @@
+import numpy as np
+import mathplotlib.pyplot as plt
 
 proposals = np.random.normal(0, 1, n_samples) 
 
