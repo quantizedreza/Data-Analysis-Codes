@@ -1,10 +1,12 @@
 # now, let's flip a random spin and calculate the new energy
+
 def flip_random_spin(state):
     """Flip a random spin in the state."""
     new_state = state.copy()
     index = random.randint(0, len(state) - 1)
     new_state[index] *= -1
     return new_state
+    
 
 new_a_k = flip_random_spin(a_k)
 new_E = round(energy(new_a_k, J), 2)
