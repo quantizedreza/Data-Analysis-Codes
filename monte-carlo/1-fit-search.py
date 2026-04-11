@@ -8,7 +8,7 @@ w0 = 1.0;
 sd2 = 0.1;
 x = np.linspace(0,10,100);
 gda_cvec = lambda m1,m2: np.array([m1,m2]);
-dobs = np.sin(w0*2.0*x) + 2.0*3.0 + np.random.normal(loc=0.0,scale=np.sqrt(sd2),size=x.shape);
+dobs = np.sin(w0*2.0*x) + 2.0*3.0 + np.random.normal(loc=0.0,scale=np.sqrt(sd2),size=x.shape); #Random Observed data With noise
 E0 = np.inf;
 # true model parameters
 for myiter in range(1,N_iter+1):
