@@ -1,5 +1,7 @@
 # Data Assimilation With Python 
-Reza Rahemi 
+
+
+These are Applied Data Analysis codes which can be useful in any physics lab. 
 
 <img width="1100" height="600" alt="gp_regression_animation" src="https://github.com/user-attachments/assets/5afcf7e5-83ab-499b-9545-c6534ebfe751" />
 
